@@ -20,6 +20,13 @@ body {
   background-size: cover;
 }
 
+.title-quote {
+  text-align: left;
+  padding-left: 8%;
+  font-size: 30px;
+  max-width: 550px;
+}
+
 .text-centered {
   text-align: center;
 }
@@ -62,7 +69,7 @@ body {
 
 .aboutme-content {
   font-size: 1.3em;
-  padding: 150px 80px 0 0;
+  padding: 80px 80px 0 0;
 }
 
 .molly-img  {
@@ -70,22 +77,13 @@ body {
   padding-bottom: 60px;
 }
 
-.img-center {
+.grid-img {
+  max-width: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.dsy-web-img {
-  max-width: 250px;
-}
-
-.logo_options_img {
-  max-width: 250px;
-}
-
-.bala_img {
-  max-width: 250px;
 }
 
 .services-title  {
@@ -167,6 +165,10 @@ body {
   background-size: cover;
   text-align: center;
   color: white;
+}
+
+.email-link:hover {
+  font-weight: bold;
 }
 
 .contact-title  {
