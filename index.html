@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://use.typekit.net/ptf7eih.css">
   <link rel="stylesheet" type="text/css" href="assets/stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/image-modal.css">
   <link href="https://fonts.googleapis.com/css?family=Prata" rel="stylesheet">
 </head>
 
@@ -85,9 +86,34 @@
         <h2 class="about-title">Portfolio</h2>
       </div>
       <section>
+
+        <!-- Trigger the Modal -->
+        <!-- <img id="myImg" src="img_fjords.jpg" alt="Trolltunga, Norway" width="300" height="200"> -->
+
+        <!-- The Modal -->
+        <!-- <div id="myModal" class="modal"> -->
+
+          <!-- The Close Button -->
+          <!-- <span class="close">&times;</span> -->
+
+          <!-- Modal Content (The Image) -->
+          <!-- <img class="modal-content" id="img01"> -->
+
+          <!-- Modal Caption (Image Text) -->
+          <!-- <div id="caption"></div> -->
+        <!-- </div> -->
         <div class="row">
           <div class="col-sm-4">
-            <img class='grid-img' src="assets/imgs/dsy_web_design_4x6.jpg" alt="dsy_web_design">
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01" style='height: 80%; width: auto;'>
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption"></div>
+            </div>
+            <img class='grid-img' src="assets/imgs/dsy_web_design_4x6.jpg" alt="Web Design <br> Dancing Shiva Yoga">
             <div class="prata text-centered photo-title">
               Web Design
             </div>
@@ -96,7 +122,7 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <img class='grid-img' src="assets/imgs/logo_options_4x6.jpg" alt="logo_options">
+            <img class='grid-img' src="assets/imgs/logo_options_4x6.jpg" alt="Logo & Branding<br>Root to Bloom">
             <div class="prata text-centered photo-title">
               Logo & Branding
             </div>
@@ -105,7 +131,7 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <img class='grid-img'src="assets/imgs/bali_yoga_4x6.jpg" alt="bali_yoga">
+            <img class='grid-img'src="assets/imgs/bali_yoga_4x6.jpg" alt="Print Design<br>Jeda Retreat Center">
             <div class="prata text-centered photo-title">
               Print Design
             </div>
@@ -117,7 +143,7 @@
 
         <div class="row">
           <div class="col-sm-4">
-            <img class='grid-img' src="assets/imgs/dsy_astrology_4x6.jpg" alt="dsy_astrology">
+            <img class='grid-img' src="assets/imgs/dsy_astrology_4x6.jpg" alt="Print Design<br>Zodiac Yoga">
             <div class="prata text-centered photo-title">
               Print Design
             </div>
@@ -126,7 +152,7 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <img class='grid-img' src="assets/imgs/dsy_brochure_4x6.jpg" alt="dsy_brochure">
+            <img class='grid-img' src="assets/imgs/dsy_brochure_4x6.jpg" alt="Print Design<br>Dancing Shiva Yoga">
             <div class="prata text-centered photo-title">
               Print Design
             </div>
@@ -135,7 +161,7 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <img class='grid-img'src="assets/imgs/dsy_buscard_4x6.jpg" alt="dsy_buscard">
+            <img class='grid-img'src="assets/imgs/dsy_buscard_4x6.jpg" alt="Print Design<br>Dancing Shiva Yoga">
             <div class="prata text-centered photo-title">
               Print Design
             </div>
@@ -147,7 +173,7 @@
 
         <div class="row">
           <div class="col-sm-4">
-            <img class='grid-img' src="assets/imgs/dsy_logo_4x6.jpg" alt="dsy_logo">
+            <img class='grid-img' src="assets/imgs/dsy_logo_4x6.jpg" alt="Logo Design<br>Dancing Shiva Yoga">
             <div class="prata text-centered photo-title">
               Logo Design
             </div>
@@ -156,7 +182,7 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <img class='grid-img' src="assets/imgs/mm_4x6.jpg" alt="mm">
+            <img class='grid-img' src="assets/imgs/mm_4x6.jpg" alt="Print Design<br>Montras & Malas">
             <div class="prata text-centered photo-title">
               Print Design
             </div>
@@ -165,7 +191,7 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <img class='grid-img'src="assets/imgs/infographic_4x6.jpg" alt="infographic">
+            <img class='grid-img'src="assets/imgs/infographic_4x6.jpg" alt="Infographic<br>Hiking Group">
             <div class="prata text-centered photo-title">
               Infographic
             </div>
@@ -186,8 +212,6 @@
       </div>
       <p class="prata"><strong>Look forward to hearing from you.</strong></p>
       <a class="email-link" href="mailto:mkmurtaugh@gmail.com" title="Email Molly Murtaugh"><p class='prata'>mkmurtaugh@gmail.com</p></a>
-      <!-- <p class="social-links"><a href="http://linkedin.com/in/ianfricker"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></p>
-      <p class="social-links"><a href="http://github.com/ifricker"><i class="fa fa-github" aria-hidden="true"></i> github</a></p> -->
     </div>
   </div>
 
@@ -201,5 +225,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script type="text/javascript" src="assets/javascripts/index.js"></script>
+  <script type="text/javascript" src="assets/javascripts/image-modal.js"></script>
 </body>
 </html>
