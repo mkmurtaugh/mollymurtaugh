@@ -1,0 +1,618 @@
+
+
+/*// Med devices (landscape phones, 768px and lower)*/
+@media (max-width: 768px) { 
+
+  .hero_lg{
+  display:none;
+}
+
+#myModal{
+  display:none;
+}
+
+#myModalC{
+  display:none;
+}
+.hero_lg{
+  display:none;
+}
+
+.white_box{
+  display:none;
+}
+
+.blue_box{
+  display:none;
+}
+
+#myBtn{
+  display: none;
+}
+
+#cocktailBtn{
+  display: none;
+}
+
+.logo_svg{
+  display: none;
+}
+
+.sparkle_box{
+  display: none;
+}
+.footer_lg{
+  display: none;
+}
+
+.margin_fix{
+  margin-right:40px !important;
+  margin-left: 10px !important;
+
+}
+
+ .logo_bottom{
+  padding-bottom:25px;
+ }
+
+ .footer_es_sm{
+  display: inline;
+  text-align: center;
+  font-size: 1em;
+
+
+}
+
+.icons_footer_sm{
+  font-size: 2.2em;
+  color: #d2b201;
+  padding:0;
+  margin-right:0;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+}
+
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 769px) { 
+
+  .smed{
+    display: none;
+  }
+
+  .hero_smed{
+    display:none;
+  }
+  .footer_sm{
+    display:none;
+  }
+
+.white_box_smed{
+  display:none;
+}
+
+.blue_box_smed{
+  display:none;
+}
+
+  .footer_es_sm{
+  display: none;
+}
+
+
+.page_width{
+  width:100%;
+  margin:0;
+}
+
+.hero-image{
+	width:100%;
+	margin: 0 0 0 0;
+}
+
+.logo_smed{
+  display: none;
+}
+ 
+.es_smed{
+  display: none;
+} 
+
+
+
+
+
+
+.smed_btns{
+  display: none;
+}
+
+.footer_padding_sm{
+  display: none;
+}
+             
+}
+
+
+
+
+/* .footer_es  a {
+  color: #2c2d3d !important;
+  font-size: 1em;
+  text-decoration: none;
+  
+  }*/
+
+
+
+
+/*.icons_footer{
+  font-size: 2.2em;
+  color: #d2b201;
+  padding:0 5%;
+  margin-right:20px;
+}*/
+
+
+/*.icons_padding{
+  margin-left: 15px;
+}*/
+
+
+/*whole page*/
+.centered{
+  text-align: center;
+}
+
+.body{
+  font-family: "PT Serif" , serif;
+}
+
+
+.about-image{
+  width:100%;
+  margin: 25px 0 0 0;
+}
+
+.vibe-image{
+  width:100%;
+  margin: 25px 0 0 0;
+}
+
+
+.es_about{
+  margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+}
+
+.logo_svg{
+  left: 0px; 
+  top:0px; 
+  z-index: 0
+  height:20px;
+}
+
+/*style svg from drawsvg */
+.logo_svg{
+ transform: translate(-50%, -50%);
+  /*top: 50%;*/
+  margin-top:22%;
+  left: 50%;
+  position: absolute;
+  /*max-height:15cm;
+  max-width:15cm;*/
+  width: 66.333%;
+  /*height: 90%;*/
+
+}
+
+.champs_1{
+  height:35vh;
+}
+
+.footer_es{
+  padding-top: 30px;
+  height:50vh;
+  width:100%;
+  /*font-family: 'Julius Sans One', sans-serif;*/
+  font-family: 'Old Standard TT', serif;
+  color:white;
+
+}
+
+.footer_color{
+ background-color:#353f55;;
+}
+
+
+.footer_es ul{
+  list-style-type: none;
+}
+
+.es_list{
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Tajawal', sans-serif;*/
+    /*font-family: 'Julius Sans One', sans-serif;*/
+}
+.es_list1{
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Tajawal', sans-serif;*/
+    /*font-family: 'Julius Sans One', sans-serif;*/
+    margin-top:5%;
+}
+
+.footer_col_text{
+  margin-top: 110px;
+  font-size: 1.3em;
+}
+
+.footer_col_textR{
+  
+
+}
+
+.container-fluid{
+  padding:0;
+  margin:0;
+}
+
+.blue_box{
+    background: #353f55;
+    color: #ffffff;
+    height:600px;
+    width:90%;
+    margin: -50px auto 0px auto;
+    position:relative;
+    z-index:1;
+}
+
+.bb_text_hr{
+  margin-top:0;
+}
+
+.es_cheers{
+  height:110px;
+  margin-top:10px;
+}
+
+.blue_box_right{
+  background-image:url("../images/es_about_image.jpg");
+  float:right;
+  height:100%;
+  width:50%;
+}
+
+.blue_box_left{
+  float:left;
+  height:100%;
+  width:50%;
+
+}
+
+.blue_box_text{
+  margin:15% ;
+  text-align:center;
+  font-family: 'Tajawal', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-weight: 200;
+  /*font-size: 5em;*/
+}
+
+.bb_text_title{
+  font-size:50px;
+  letter-spacing: 2px;
+}
+
+.bb_text_hr{
+  border-top:1px solid #ffffff;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.bb_text_body{
+font-size:16px;
+letter-spacing: 4.5px;
+/*font-size:2em;*/
+}
+
+.white_box{
+  background: #ffffff;
+    height:650px;
+    margin-bottom: -50px;
+  /*font-family: 'Julius Sans One', sans-serif;*/
+  font-family: 'Old Standard TT', serif;
+  font-size: 35px
+}
+
+.white_box_right{
+  background-image:url("../images/es_vibe_image.jpg");
+  float:right;
+  height:100%;
+  width:40%;
+  margin: -50px auto;
+  position:relative;
+  z-index:1;
+}
+
+.white_box_left{
+  float:left;
+  height:100%;
+  width: 60%;
+    text-align: center;
+  position:relative;
+}
+
+.wb_text_body{
+  margin:2%;
+
+  }
+
+.wb_text_author{
+
+}
+
+.sparkle_box{
+  background-image:url("../images/art-deco.png");
+    height:500px;
+  margin-bottom: -50px;
+   /*font-family: 'Julius Sans One', sans-serif;*/
+   /*font-family: 'Old Standard TT', serif;*/
+   /*font-family: 'Tajawal', sans-serif;*/
+   font-family: 'Open Sans', sans-serif;
+   color:white;
+   font-size: 35px
+
+}
+
+svg{
+  display:block;
+  height:1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+
+.btn-dinner{
+background-color: #353f55 !important;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+        margin-right: 50px
+
+
+}
+
+.btn-cocktail{
+ background-color: #353f55!important;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+        margin-left: 50px
+
+}
+
+.center-btns{
+    padding-top: 200px; 
+    text-align: center;
+
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.es_dinner{
+width:100%;
+/*margin:auto;*/
+}
+
+/* The Modal (background) */
+.modalC {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-contentC {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.closeC {
+    color: #aaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeC:hover,
+.closeC:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*small/medium device style*/
+
+
+
+/*.blue_box_smed{
+  background-color:#353f55;
+    height:300px;
+   font-size: 35px
+}*/
+.es_smed.open{
+  height:auto;
+}
+.es_smed{
+  background-image:url("../images/es_hero_smed.jpg");
+  height:100%;
+  width:100%;
+  background-size: cover;
+  
+}
+
+.logo_smed{
+  margin:auto;
+  max-height: 70%;
+  text-align: center;
+  margin-top:5%;
+}
+
+.btn_smed_dinner{
+  background-color: #353f55 !important;
+    border: none;
+    font-size: 30px;
+    height:20px; 
+     
+    padding:40px;
+   
+}
+
+.btn_smed_drinks{
+  background-color: #353f55 !important;
+    border: none;
+    font-size: 30px;
+    height:20px; 
+    
+    padding:40px;
+   
+}
+
+
+.hero_smed{
+  max-height:auto;
+}
+
+.footer_padding_sm{
+  
+  background-color: #353f55;
+
+}
+.es_image, .es_image1{
+  display: none;
+}
+.es_image1{
+  padding-bottom: 200px;
+}
+.li_es{
+  padding-left:0px;
+}
+
+.es_footerfont_smed{  
+    color:white ;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .7em; 
+}
+
+.es_dinner_smed{
+  width:75%;
+  margin-bottom:30px;
+}
+
+.smed_btns{
+  margin-top:25px;
+  color:white;
+      font-family: 'Open Sans', sans-serif;
+      padding:10px;
+}
+
+.wb_text_top{
+  margin-top:10%;
+}
+
+.es_social{
+  max-width:45px;
+  position: relative;
+}
+
+.es_social_mid{
+max-width:45px;
+  position: relative;
+  padding:1%;
+}
+
+.social_icons{
+  margin-top:10%;
+}
+
+.es_social_smed{
+  max-width:15px;
+  position: relative;
+}
+
+.social_icons_smed{
+  /*margin-top:10%;*/
+}
