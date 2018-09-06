@@ -1,4 +1,21 @@
 
+
+
+var $champs = $("#test_id");
+
+
+$champs.waypoint(function (){
+     $champs.attr('src', "images/champs_es.gif");
+     setTimeout(function(){
+    $champs.attr('src', "images/champa.png");
+     }, 4000);
+}, { offset:'70%'});
+
+
+
+
+
+
 // dinner button mobile
 $(document).ready(function(){
 
